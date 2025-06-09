@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Izzy By Archi</title>
+    <title>Archi Collections</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Izzy By Archi, Men Clothing, Female Clothing" name="keywords">
     <meta content="Izzy By Archi, Men Clothing, Female Clothing" name="description">
