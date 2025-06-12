@@ -52,7 +52,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="{{ asset('img/cat-2.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/cat-2.jpeg') }}" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Women's wear</h5>
                 </div>
@@ -61,9 +61,9 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="{{ asset('img/cat-3.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/cat-3.jpeg') }}" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Baby's wear</h5>
+                    <h5 class="font-weight-semi-bold m-0">Kids' wear</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -79,7 +79,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="{{ asset('img/cat-5.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('img/cat-5.jpeg') }}" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Bags</h5>
                 </div>
@@ -102,7 +102,7 @@
         <div class="row px-xl-5">
             <div class="col-md-6 pb-4">
                 <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
-                    <img src="{{ asset('img/offer-1.png') }}" alt="">
+                    <img src="{{ asset('img/offer-1.jpeg') }}" alt="">
                     <div class="position-relative" style="z-index: 1;">
                         <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Spring Collection</h1>
@@ -112,7 +112,7 @@
             </div>
             <div class="col-md-6 pb-4">
                 <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 py-5 px-5">
-                    <img src="{{ asset('img/offer-2.png') }}" alt="">
+                    <img src="{{ asset('img/offer-2.jpeg') }}" alt="">
                     <div class="position-relative" style="z-index: 1;">
                         <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Winter Collection</h1>
@@ -154,6 +154,6 @@
     <!-- Products End -->
 
     <!-- Vendor Start -->
-    @include('partials.vendor')
+    <!-- @include('partials.vendor') -->
     <!-- Vendor End -->
 @endsection
